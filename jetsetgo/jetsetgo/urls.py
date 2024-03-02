@@ -21,9 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('travel.urls')),
     path('about/',include('travel.urls')),
-    path('blog/',include('travel.urls')),
     path('contact/',include('travel.urls')),
-    path('portfolio/',include('travel.urls')),
     path('services/',include('travel.urls')),
     path('team/',include('travel.urls'))
 ]

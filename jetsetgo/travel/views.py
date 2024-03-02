@@ -8,10 +8,6 @@ def about(request):
     return render(request,'#about')
 def services(request):
     return render(request,'#services')
-def blog(request):
-    return render(request, 'blog.html')
-def portfolio(request):
-    return render(request, 'portfolio.html')
 def adventure(request):
     return render(request, 'adventure.html')
 def team(request):
