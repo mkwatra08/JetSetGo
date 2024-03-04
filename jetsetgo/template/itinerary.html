@@ -1,0 +1,286 @@
+{% load static %}
+{% include "base.html" %}
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en"> 
+  <head>
+    <!-- Site Title-->
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"> </script>
+		<![endif]--> 
+  </head>
+  <body>
+    {% include "navbar.html" %}  
+   {% block body %}
+
+   {% endblock body %}
+    <!-- Page preloader-->
+    <div class="page-loader"> 
+      <div class="page-loader-body"> 
+        <div class="preloader-wrapper big active"> 
+          <div class="spinner-layer spinner-blue"> 
+            <div class="circle-clipper left">
+              <div class="circle"> </div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"> </div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"> </div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="spinner-layer spinner-yellow"> 
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"> </div>
+            </div>
+          </div>
+          <div class="spinner-layer spinner-green"> 
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page-->
+   
+     
+      <section class="section">
+        <div class="swiper-form-wrap">
+          <!-- Swiper-->
+          <div class="swiper-container swiper-slider swiper-slider_height-1 swiper-align-left swiper-align-left-custom context-dark bg-gray-darker" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" data-slide-bg="images/swiper-slide-1.jpg">
+                <div class="swiper-slide-caption">
+                  <div class="container container-bigger swiper-main-section">
+                    <div class="row row-fix justify-content-sm-center justify-content-md-start">
+                      <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
+                        <h3>Hundreds of Amazing Destinations</h3>
+                        <div class="divider divider-decorate"></div>
+                        <p class="text-spacing-sm">We offer a variety of destinations to travel to, ranging from exotic to some extreme ones. They include very popular countries and cities like Paris, Rio de Janeiro, Cairo and a lot of others.</p><a class="button button-default-outline button-nina button-sm" href="#">learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" data-slide-bg="images/swiper-slide-2.jpg">
+                <div class="swiper-slide-caption">
+                  <div class="container container-bigger swiper-main-section">
+                    <div class="row row-fix justify-content-sm-center justify-content-md-start">
+                      <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
+                        <h3>The Trip of Your Dream</h3>
+                        <div class="divider divider-decorate"></div>
+                        <p class="text-spacing-sm">Our travel agency is ready to offer you an exciting vacation that is designed to fit your own needs and wishes. Whether it’s an exotic cruise or a trip to your favorite resort, you will surely have the best experience.</p><a class="button button-default-outline button-nina button-sm" href="#">learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" data-slide-bg="images/swiper-slide-3.jpg">
+                <div class="swiper-slide-caption">
+                  <div class="container container-bigger swiper-main-section">
+                    <div class="row row-fix justify-content-sm-center justify-content-md-start">
+                      <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
+                        <h3>unique Travel Insights</h3>
+                        <div class="divider divider-decorate"></div>
+                        <p class="text-spacing-sm">Our team is ready to provide you with unique weekly travel insights that include photos, videos, and articles about untravelled tourist paths. We know everything about the places you’ve never been to!</p><a class="button button-default-outline button-nina button-sm" href="#">learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper controls-->
+            <div class="swiper-pagination-wrap">
+              <div class="container container-bigger">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container container-bigger form-request-wrap form-request-wrap-modern">
+            <div class="row row-fix justify-content-sm-center justify-content-lg-end">
+              <div class="col-lg-6 col-xxl-5">
+                <div class="form-request form-request-modern bg-gray-lighter novi-background">
+                  <h4>Find your Tour</h4>
+                  <!-- RD Mailform-->
+                  <form class="rd-mailform form-fix">
+                    <div class="row row-20 row-fix">
+                      <div class="col-sm-12">
+                        <label class="form-label-outside">From</label>
+                        <div class="form-wrap form-wrap-inline">
+                          <select class="form-input select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
+                            <option value="1">New York</option>
+                            <option value="2">Lisbon</option>
+                            <option value="3">Stockholm</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <label class="form-label-outside">To</label>
+                        <div class="form-wrap form-wrap-inline">
+                          <select class="form-input select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
+                            <option value="1">Chicago</option>
+                            <option value="2">Madrid</option>
+                            <option value="3">Paris</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-lg-6">
+                        <label class="form-label-outside">Departure</label>
+                        <div class="form-wrap form-wrap-validation">
+                          <!-- Select -->
+                          <input class="form-input" id="dateForm" name="date" type="text" data-time-picker="date">
+                          <label class="form-label" for="dateForm">Choose the date</label>
+                          <!--select.form-input.select-filter(data-placeholder="All", data-minimum-results-for-search="Infinity",  name='city')-->
+                          <!--  option(value="1") Choose the date-->
+                          <!--  option(value="2") Primary-->
+                          <!--  option(value="3") Middle-->
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-lg-6">
+                        <label class="form-label-outside">Return</label>
+                        <div class="form-wrap form-wrap-validation">
+                          <!-- Select -->
+                          <input class="form-input" id="dateForm" name="date" type="text" data-time-picker="date">
+                          <label class="form-label" for="dateForm">Choose the date</label>
+                          <!--select.form-input.select-filter(data-placeholder="All", data-minimum-results-for-search="Infinity",  name='city')-->
+                          <!--  option(value="1") Choose the date-->
+                          <!--  option(value="2") Primary-->
+                          <!--  option(value="3") Middle-->
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <label class="form-label-outside">Adults</label>
+                        <div class="form-wrap form-wrap-modern">
+                          <input class="form-input input-append" id="form-element-stepper" type="number" min="0" max="300" value="2">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <label class="form-label-outside">Children</label>
+                        <div class="form-wrap form-wrap-modern">
+                          <input class="form-input input-append" id="form-element-stepper-1" type="number" min="0" max="300" value="0">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-wrap form-button">
+                      <button class="button button-block button-secondary" type="submit">Search Itinerary</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {% load static %}
+
+<footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>JetSetGo</span>
+          </a>
+          <p>Discover, plan, and embark on unforgettable journeys tailored to you. Whether it's adventure, relaxation, or cultural exploration, we've got you covered. Let's turn your wanderlust into reality with personalized recommendations and comprehensive travel guides.
+          </p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Itinerary Planner</a></li>
+            <li><a href="#">Group Packages</a></li>
+            <li><a href="#">Popular Activities</a></li>
+            <li><a href="#">Accomodation Management</a></li>
+            <li><a href="#">Transport Facility</a></li>
+            <li><a href="#">Local Recommendations</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States <br><br>
+            <strong>Phone:</strong> +91 9999 9999 99<br>
+            <strong>Email:</strong> info@JetSetGo.com<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>JetSetGo</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">Team JetSetGo</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+</body>
+</html>
