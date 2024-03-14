@@ -27,5 +27,6 @@ urlpatterns = [
     path('services/',include('travel.urls')),
     path('team/',include('travel.urls')),
     path('',include('travel.urls')),
+    path('user/',include('app1.urls')),
     
 ]
