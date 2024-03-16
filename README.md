@@ -34,8 +34,5 @@ JetSetGo is a travel itinerary website designed to help users plan their trips e
 - [Mohit Verma](https://github.com/mohitv25)
 - [Laasya Vasaath](https://github.com/laasya-vasanth)
 
-## License:
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements:
 - Special thanks to all the contributors.
