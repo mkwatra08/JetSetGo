@@ -37,4 +37,4 @@ JetSetGo is a travel itinerary website designed to help users plan their trips e
 ## Acknowledgements:
 - Special thanks to all the contributors.
 
-##Feel free to add to this project!
+Feel free to add to this project!
