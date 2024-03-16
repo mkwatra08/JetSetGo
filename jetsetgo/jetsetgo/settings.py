@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'app1.apps.App1Config',
     'travel.apps.TravelConfig',
     'django.contrib.admin',
@@ -40,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles'
 ]
+
+JAZZMIN_SETTINGS = {
+    'login_logo': None
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -79,10 +84,14 @@ WSGI_APPLICATION = 'jetsetgo.wsgi.application'
 
 DATABASES = {
     'default': {
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3'
+        # the below config is done to use mySQL database, if mySQL is not 
+        # configured in the system replace the entire below code with the above comment
        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tour',
-        'USER': 'MTA',  
-        'PASSWORD': '12345',  
+        'NAME': 'tour', # this should be replaced by your own DB name
+        'USER': 'MTA', #Your username for mysql
+        'PASSWORD': '12345',  #Your password for MySQL
         'HOST': '127.0.0.1',  
         'PORT': '3306',  
         'OPTIONS': {  
@@ -137,6 +146,3 @@ STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
 
-
-LOGIN_REDIRECT_URL = '/contact/'
-LOGOUT_REDIRECT_URL = '/contact/'

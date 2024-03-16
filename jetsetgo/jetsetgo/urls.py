@@ -32,3 +32,7 @@ urlpatterns = [
     path('countries/',include('travel.urls')),
     path('group/',include('travel.urls'))
 ]
+
+admin.site.site_header = "JetSetGo."
+admin.site.site_title = "Admin Portal"
+admin.site.index_title = "Welcome to Admin Portal"
