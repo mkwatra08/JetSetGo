@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'jetsetgo.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jetsetgo',
+        'NAME': 'tour',
         'USER': 'MTA',  
         'PASSWORD': '12345',  
         'HOST': '127.0.0.1',  
@@ -136,3 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+
+LOGIN_REDIRECT_URL = '/contact/'
+LOGOUT_REDIRECT_URL = '/contact/'

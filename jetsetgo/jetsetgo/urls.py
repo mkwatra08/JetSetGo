@@ -28,5 +28,7 @@ urlpatterns = [
     path('team/',include('travel.urls')),
     path('',include('travel.urls')),
     path('user/',include('app1.urls')),
-    
+    path('planner/',include('travel.urls')),
+    path('countries/',include('travel.urls')),
+    path('group/',include('travel.urls'))
 ]
