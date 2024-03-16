@@ -29,10 +29,13 @@ JetSetGo is a travel itinerary website designed to help users plan their trips e
 4. Access the website in your browser: `http://localhost:8000`
 
 ## Contributors:
-- [Your Name](https://github.com/your-username)
+- [Mohammed Tariq Akram](https://github.com/tariq-akram)
+- [Muskan Kwatra](https://github.com/mkwatra08)
+- [Mohit Verma](https://github.com/mohitv25)
+- [Laasya Vasaath](https://github.com/laasya-vasanth)
 
 ## License:
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements:
-- Special thanks to [OpenAI](https://openai.com) for providing the language model used to generate this README.md.
+- Special thanks to all the contributors.
