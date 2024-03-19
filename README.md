@@ -32,7 +32,7 @@ JetSetGo is a travel itinerary website designed to help users plan their trips e
 - [Mohammed Tariq Akram](https://github.com/tariq-akram)
 - [Muskan Kwatra](https://github.com/mkwatra08)
 - [Mohit Verma](https://github.com/mohitv25)
-- [Laasya Vasaath](https://github.com/laasya-vasanth)
+- [Laasya Vasanth](https://github.com/laasya-vasanth)
 
 ## Acknowledgements:
 - Special thanks to all the contributors.
