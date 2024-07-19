@@ -1,6 +1,6 @@
 # JetSetGo Travel Itinerary Website
 
-JetSetGo is a travel itinerary website designed to help users plan their trips effectively. Built using Django and MySQL, JetSetGo offers a user-friendly interface and robust functionality to streamline the travel planning process.
+JetSetGo is a travel itinerary website created to assist users in planning their trips efficiently. Developed with Django and MySQL, JetSetGo features a user-friendly interface and robust functionality to simplify the travel planning experience.
 
 ## Features:
 - **User Authentication**: Sign up and log in to access the website's features securely.
