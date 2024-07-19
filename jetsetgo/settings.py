@@ -91,7 +91,7 @@ DATABASES = {
        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tour', # this should be replaced by your own DB name
         'USER': 'MTA', #Your username for mysql
-        'PASSWORD': '12345',  #Your password for MySQL
+        'PASSWORD': '',  #Your password for MySQL
         'HOST': '127.0.0.1',  
         'PORT': '3306',  
         'OPTIONS': {  
